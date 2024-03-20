@@ -2701,7 +2701,7 @@ input[type="radio"]:focus + label:before {
 .image.right {
   max-width: 40%;
 }
-
+/*Testing image width*/
 .image.left img,
 .image.right img {
   width: 20%;
