@@ -1,32 +1,40 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# My Portfolio
 
+Welcome to my portfolio! Here you'll find information about me, my projects, and how to get in touch.
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+## About Me
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+I am a passionate developer with experience in various technologies such as:
+- HTML5
+- JS
+- CSS
+- Java
+- SSIS
+- SSRS
+- SQL
+- Python
 
-(* = not included)
+I love building innovative solutions and learning new things every day.
 
-AJ
-aj@lkn.io | @ajlkn
+## Projects
 
+### Project 1: [Project Name 1](link_to_project_1)
 
-Credits:
+Description: Brief description of Project 1.
 
-	Demo Images:
-		Unsplash (unsplash.com)
+### Project 2: [Project Name 2](link_to_project_2)
 
-	Icons:
-		Font Awesome (fontawesome.io)
+Description: Brief description of Project 2.
 
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+### Project 3: [Project Name 3](link_to_project_3)
+
+Description: Brief description of Project 3.
+
+## Contact Me
+
+Feel free to reach out to me via email or connect with me on LinkedIn or GitHub.
+
+- **Email:** [your.email@example.com](mailto:your.email@example.com)
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/yourprofile)
+- **GitHub:** [Your GitHub Profile](https://github.com/yourusername)
+
