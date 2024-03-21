@@ -3395,15 +3395,11 @@ body.is-preload #wrapper.fade-in:before {
 
 #intro {
   color: #ffffff;
-  padding: 8rem 4rem 6rem 4rem;
+  padding: 8rem 4rem 6rem 1rem;
   -moz-align-items: center;
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -3420,7 +3416,7 @@ body.is-preload #wrapper.fade-in:before {
   cursor: default;
   text-align: center;
   z-index: 1;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 #intro input,
@@ -3613,10 +3609,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   -webkit-align-items: center;
   -ms-align-items: center;
   align-items: center;
-  display: -moz-flex;
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
   -moz-flex-direction: column;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -3701,12 +3693,13 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   padding: 1rem 1.75rem;
   text-transform: uppercase;
   visibility: visible;
+  top: 15px;
 }
 
-#header .logo:hover {
+/*#header .logo:hover {
   border-color: #18bfef !important;
   color: #18bfef !important;
-}
+}*/
 
 @media screen and (max-width: 980px) {
   #header {
@@ -3945,7 +3938,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   #main > .post header.major > h1,
   #main > .post header.major h2 {
     font-size: 2.5rem;
-    line-height: 1.2;
     margin: 0 0 1.5rem 0;
   }
 }
@@ -3992,7 +3984,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   border-color: #eeeeee;
   border-left-width: 2px;
   border-style: solid;
-  border-top-width: 2px;
   text-align: center;
 }
 
@@ -4033,16 +4024,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
     border-left-width: 2px;
   }
 
-  #main > .posts > article:nth-child(-n + 2) {
-    border-top-width: 2px;
-  }
-
   #main > .posts > article:nth-child(n) {
     border-left-width: 0;
-  }
-
-  #main > .posts > article:nth-child(-n + 1) {
-    border-top-width: 0;
   }
 
   #main > .posts > article .image {
