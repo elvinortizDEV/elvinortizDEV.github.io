@@ -217,7 +217,7 @@
 function downloadPDF() {
   // Create a link element
   var link = document.createElement("a");
-  link.href = "/resume/resume.pdf"; // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
+  link.href = "resume/resume.pdf"; // Replace 'path/to/your/resume.pdf' with the actual path to your PDF file
   link.download = "resume.pdf"; // Optional: You can change the downloaded file name here if needed
 
   // Append the link to the body
