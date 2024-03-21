@@ -307,7 +307,7 @@ h1 {
 
 h2 {
   font-size: 1.75rem;
-  line-height: 1.3;
+  line-height: 1;
   margin: 0 0 1.5rem 0;
 }
 
@@ -3515,15 +3515,6 @@ body.is-preload #wrapper.fade-in:before {
   margin-top: -20rem;
 }
 
-#intro + #header .logo {
-  -moz-transform: translateY(2rem);
-  -webkit-transform: translateY(2rem);
-  -ms-transform: translateY(2rem);
-  transform: translateY(2rem);
-  opacity: 0;
-  visibility: hidden;
-}
-
 #intro.hidden {
   pointer-events: none;
   -moz-transform: translateY(2rem);
@@ -3537,15 +3528,6 @@ body.is-preload #wrapper.fade-in:before {
   transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
   opacity: 0;
   visibility: hidden;
-}
-
-#intro.hidden + #header .logo {
-  -moz-transform: translateY(0);
-  -webkit-transform: translateY(0);
-  -ms-transform: translateY(0);
-  transform: translateY(0);
-  opacity: 1;
-  visibility: visible;
 }
 
 body.is-preload #intro {
@@ -3670,30 +3652,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 #header hr {
   border-bottom-color: #ffffff;
-}
-
-#header .logo {
-  -moz-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    opacity 0.5s ease, -moz-transform 0.5s ease, visibility 0.5s;
-  -webkit-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    opacity 0.5s ease, -webkit-transform 0.5s ease, visibility 0.5s;
-  -ms-transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    opacity 0.5s ease, -ms-transform 0.5s ease, visibility 0.5s;
-  transition: border-color 0.2s ease-in-out, color 0.2s ease-in-out,
-    opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
-  pointer-events: auto;
-  border-style: solid;
-  border-color: #ffffff;
-  border-width: 5px !important;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
-  font-size: 2.25rem;
-  font-weight: 900;
-  letter-spacing: 0.075em;
-  line-height: 1;
-  padding: 1rem 1.75rem;
-  text-transform: uppercase;
-  visibility: visible;
-  top: 15px;
 }
 
 /*#header .logo:hover {
@@ -4732,7 +4690,6 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   right: 0;
   text-align: right;
   top: 0;
-  vertical-align: middle;
   width: 7rem;
 }
 
